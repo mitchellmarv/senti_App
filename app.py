@@ -70,5 +70,4 @@ with st.expander('Analizar cómo te sientes'):
             frase = random.choice(frases_animo)
             st.write(frase)
             st.write('¡Aquí tienes algo que puede sacarte una sonrisa, baila con el perro!')
-            gif = Image.open('epico.gif')
-            st.image(gif)
+            st.image('epico.gif')
